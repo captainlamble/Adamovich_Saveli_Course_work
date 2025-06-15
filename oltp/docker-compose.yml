@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres
+    container_name: postgres-course-work
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: oltpcoursework
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgresql/data:/var/lib/postgresql/data
+      - ./data:/scripts:ro

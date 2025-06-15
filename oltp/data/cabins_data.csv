@@ -1,0 +1,3 @@
+cabin_number,seat_number,is_available
+C101,S01,True
+C102,S02,False

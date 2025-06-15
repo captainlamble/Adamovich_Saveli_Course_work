@@ -1,0 +1,2 @@
+booking_id,passport_number,cruise_number,seat_number,booking_date,status
+B123,P1234567,CR001,S01,2025-06-01 12:30:00,confirmed

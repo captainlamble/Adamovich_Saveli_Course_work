@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/olap/insights/booking-trends.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/olap/insights/customer-booking-behaviour.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/olap/insights/popular-routes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/olap/sql/fdw_setup.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/olap/sql/migrate.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/olap/sql/olap_script.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/oltp/insights/popular-routes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/oltp/insights/revenue-analyses.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/oltp/insights/top-bookings.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/oltp/sql/create.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/oltp/sql/initial.sql" dialect="PostgreSQL" />
+    <file url="PROJECT" dialect="PostgreSQL" />
+  </component>
+</project>

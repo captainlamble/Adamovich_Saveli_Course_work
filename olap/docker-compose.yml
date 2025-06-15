@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres
+    container_name: postgres-olap-course-work
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: olapcoursework
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./postgresql/data:/var/lib/postgresql/data
+      - ./data:/scripts:ro

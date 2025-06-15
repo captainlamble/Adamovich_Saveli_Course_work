@@ -1,0 +1,2 @@
+cruise_number,cruiseline_name,departure_port_code,arrival_port_code,departure_time,arrival_time,base_price
+CR001,OceanicVoyage,NY,MI,2025-07-01 08:00:00,2025-07-05 09:00:00,599.99

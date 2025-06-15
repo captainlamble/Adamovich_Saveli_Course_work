@@ -1,0 +1,2 @@
+payment_id, booking_id, passport_number,cruise_number,seat_number,payment_date,amount,payment_method,payment_status
+P321,B123,P1234567,CR001,S01,2025-06-02 10:00:00,599.99,credit_card,paid
