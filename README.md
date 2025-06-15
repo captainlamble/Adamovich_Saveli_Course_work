@@ -58,13 +58,15 @@ The dimensional model enables multi-faceted reporting across time dimensions, ge
 
 ## Instructions of scripts to run
 
+You can start two postgres DB`s by running docker compose files in oltp and olap folders.
+
 ### OLTP Schema
 
 First run `initial.sql` to create oltp schema and then `create.sql` file to copy data from `.csv` files into temporary tables and then into normal tables
 
 ### OLAP Schema
 
-First run `olap_script.sql` file to create olap schema, then `fdw_setup.sql` file to setup fdw connection and copy tables from a separate oltp database to fdw tables, after run `migrate.sql` file to migrate data from fdw tables to olap tables 
+First run `olap_script.sql` file to create olap schema, then `fdw_setup.sql` file to setup fdw connection(creds there are for db in oltp docker contsiner) and copy tables from a separate oltp database to fdw tables, after run `migrate.sql` file to migrate data from fdw tables to olap tables 
 
 ### Queries based on OLTP and OLAP DBs to get insights
 
